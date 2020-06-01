@@ -1,0 +1,52 @@
+
+body{
+    margin:auto;
+    height: auto;
+}
+.box img{
+    position:absolute;
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.container kbd{
+    display: block;
+    text-shadow: 0 0 10px black;
+    color: ivory;
+    font-size: 2em;
+    opacity: 0.5;
+}
+.container span{
+    text-transform: uppercase;
+    color: blanchedalmond;
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+.key{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.50);
+    margin: 15px;
+    padding: 15px;
+    transition: all 3s;
+}
+.play{
+    box-shadow: 0 0 10px black;
+    border:rgba(0,0,0,0.100);
+    transform: scale(1.1);
+}
+
+
+
+
+

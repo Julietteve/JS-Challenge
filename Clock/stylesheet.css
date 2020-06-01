@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    height: auto;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg");
+    background-size: cover;
+}
+.clock{
+    border-radius: 50%;
+    width: 500px ;
+    height: 500px;
+    background-color: rgba(0,0,0,0.50);
+    position: relative;
+}
+.clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+.hand{
+    width: 40%;
+    height: 4px;
+    background-color: black;
+    opacity: 0.7;
+    position:absolute;
+    top:50%;
+    left: 10%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+}
+
